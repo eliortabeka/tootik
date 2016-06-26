@@ -51,6 +51,6 @@ Additionally, you can define a **data-tootik-conf** attribute to either change p
 <span data-tootik="..." data-tootik-conf="square">square</span>
 ```
 
-### Credits
+### Credit
 
 Handcrafted with love by Elior Shalev Tabeka (http://codepen.io/eliorshalev)
