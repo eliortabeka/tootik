@@ -1,0 +1,56 @@
+// Set Colors
+@mixin setTootikColor($color) {
+  &:after {
+    @if $color == $tootik-invert {
+      color: $color-default;
+    }
+    background: $color;
+  }
+  &:before {
+    border-top-color: $color;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  &[data-tootik-conf*='right'] {
+    &:before {
+      border-top-color: transparent;
+      border-right-color: $color;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+  }
+  &[data-tootik-conf*='bottom'] {
+    &:before {
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: $color;
+      border-left-color: transparent;
+    }
+  }
+  &[data-tootik-conf*='left'] {
+    &:before {
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: $color;
+    }
+  }
+}
+// Set Arrow Side
+@mixin arrowPosition($side) {
+  border-style: solid;
+  border-top-width: $border-width;
+  border-right-width: $border-width;
+  border-bottom-width: $border-width;
+  border-left-width: $border-width;
+  @if $side == top {
+    border-bottom-width: 0;
+  } @else if $side == right {
+    border-left-width: 0;
+  } @else if $side == bottom {
+    border-top-width: 0;
+  } @else if $side == left {
+    border-right-width: 0;
+  }
+}
