@@ -5,7 +5,7 @@ A pure **CSS Tooltip** library. Super easy to use, No JavaScript required.
 ![frame](/logo.png)
 
 ### Demo
-https://eliroshalev.github.io/tootik
+https://eliorshalev.github.io/Tootik/
 
 ### Installation
 
