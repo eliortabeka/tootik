@@ -1,6 +1,6 @@
 ## Tootik
 
-A pure **CSS Tooltip** library. Super easy to use, No JavaScript required.
+A pure **CSS/SCSS Tooltip** library. Super easy to use, No JavaScript required.
 
 ![frame](/logo.png)
 
@@ -14,8 +14,13 @@ First, download tootik.min.css and add it to your HTML.
 ```html
 <link rel="stylesheet" href="path/to/tootik.min.css">
 ```
-Then, just define a **data-tootik** attribute in your element and let the magic happen.
-Additionally, you can define a **data-tootik-conf** attribute to either change position or use a feature.</p>
+Then, just define a **data-tootik** attribute in your element and let the magic happens.
+
+```html
+<span data-tootik="...">...</span>
+```
+
+Additionally, you can define a **data-tootik-conf** attribute to either change position or use a feature.
 
 ```html
 <span data-tootik="..." data-tootik-conf="...">...</span>
