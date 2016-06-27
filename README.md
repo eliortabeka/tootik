@@ -9,11 +9,22 @@ https://eliorshalev.github.io/tootik/
 
 ### Installation
 
-First, download tootik.min.css and add it to your HTML.
+**Using npm:**
+```
+npm install tootik
+```
 
+**Using bower:**
+```
+bower install tootik
+```
+
+**Manually:**
+Simply download `tootik.min.css` from this repo or from the Demo site and add it to your HTML. e.g.
 ```html
 <link rel="stylesheet" href="path/to/tootik.min.css">
 ```
+
 Then, just define a **data-tootik** attribute in your element and let the magic happens.
 
 ```html
@@ -24,9 +35,9 @@ Additionally, you can define a **data-tootik-conf** attribute to either change p
 
 ```html
 <span data-tootik="..." data-tootik-conf="...">...</span>
-```          
-          
-### Position
+```
+
+### Positioning
 
 ```html
 <span data-tootik="...">Top</span>
