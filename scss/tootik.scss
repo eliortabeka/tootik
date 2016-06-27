@@ -7,11 +7,11 @@
 
   // Bubble
   &:after {
+    content: attr(data-tootik);
     box-sizing: border-box;
     font-style: normal;
     text-align: center;
     font-family: 'Century Gothic',AppleGothic,'CenturyGothic',sans-serif;
-    content: attr(data-tootik);
     padding: 6px 6px 5px 6px;
     font-size: $font-size;
     line-height: $font-size + 1px;
@@ -54,7 +54,8 @@
 
   @include setTootikColor($color-default);
 
-  &:hover {
+  &:hover,
+  &:focus {
     &:before,
     &:after {
       opacity: 1;
@@ -84,7 +85,8 @@
       bottom: auto;
       transform: translate(-12px, -50%);
     }
-    &:hover {
+    &:hover,
+    &:focus {
       &:before {
         transform: translate(calc(-50% + 3px), -50%);
       }
@@ -107,7 +109,8 @@
       bottom: auto;
       transform: translate(-50%, -12px);
     }
-    &:hover {
+    &:hover,
+    &:focus {
       &:before {
         transform: translate(-50%, calc(-50% + 2px));
       }
@@ -132,7 +135,8 @@
       left: auto;
       transform: translate(12px, -50%);
     }
-    &:hover {
+    &:hover,
+    &:focus {
       &:after {
         transform: translate(-7px, -50%);
       }
@@ -164,7 +168,8 @@
       transition: opacity .3s $transition-style 0s,
       transform .3s $transition-style 0s;
     }
-    &:hover {
+    &:hover,
+    &:focus {
       &:before {
         transition: opacity .2s $transition-style .5s,
         transform .6s $transition-style .5s;
@@ -220,5 +225,13 @@
   }
   &[data-tootik-conf*='danger'] {
     @include setTootikColor($tootik-danger);
+  }
+
+  // Hide if has no message
+  &[data-tootik=''] {
+    &:before,
+    &:after {
+      display: none;
+    }
   }
 }
