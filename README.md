@@ -20,12 +20,12 @@ bower install tootik
 ```
 
 **Manually:**
-Simply download `tootik.min.css` from this repo or from the Demo site and add it to your HTML. e.g.
+Download `tootik.min.css` from this repo or from [demo site](https://eliorshalev.github.io/tootik/) and add it to your HTML. e.g.
 ```html
 <link rel="stylesheet" href="path/to/tootik.min.css">
 ```
 
-Then, just define a **data-tootik** attribute in your element and let the magic happens.
+Define a **data-tootik** attribute in your element and let the magic happens.
 
 ```html
 <span data-tootik="...">...</span>
