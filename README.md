@@ -35,8 +35,8 @@ Additionally, you can define a **data-tootik-conf** attribute to either change p
 
 ```html
 <span data-tootik="..." data-tootik-conf="...">...</span>
-```
-
+```          
+          
 ### Positioning
 
 ```html
