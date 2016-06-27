@@ -1,6 +1,6 @@
 {
   "name": "tootik",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A pure CSS/SCSS Tooltip library",
   "main": "css/tootik.min.css",
   "repository": {

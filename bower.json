@@ -1,12 +1,12 @@
 {
   "name": "tootik",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/eliorshalev/tootik",
   "authors": [
     "Elior Shalev Tabeka (elioooor@gmail.com)"
   ],
   "description": "A pure CSS/SCSS Tooltip library",
-  "main": "css/tootik.min.css",
+  "main": "css/tootik.css",
   "keywords": [
     "sass",
     "scss",
