@@ -7,8 +7,6 @@
 
   // Bubble
   &:after {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
     border-radius: 7px;
     bottom: 100%;
     box-sizing: border-box;
@@ -31,24 +29,26 @@
     transition: opacity .3s @transition-style, transform .3s @transition-style;
     white-space: nowrap;
     z-index: @z-index;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
 
   // Arrow
   &:before {
     .arrowPosition(top);
-    opacity: 0;
     content: '';
-    position: absolute;
-    top: -@arrow-position;
-    left: 50%;
-    width: 0;
     height: 0;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    top: -2px;
     transform: translate(-50%, calc(-50% - 6px));
     transition: opacity .1s @transition-style 0s,
     transform .6s @transition-style 0s;
+    width: 0;
+    z-index: @z-index;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    z-index: @z-index;
   }
 
   .setTootikColor(@color-default);
@@ -60,9 +60,9 @@
       opacity: 1;
     }
     &:before {
+      transform: translate(-50%, calc(-50% - 2px));
       transition: opacity .1s @transition-style .1s,
       transform .6s @transition-style .1s;
-      transform: translate(-50%, calc(-50% - @arrow-position));
     }
     &:after {
       transform: translate(-50%, -6px);
@@ -74,14 +74,14 @@
     &:before {
       .arrowPosition(right);
       left: auto;
-      right: -@arrow-position * 2.2;
+      right: -@arrow-position;
       top: 50%;
       transform: translate(calc(-50% + 7px), -50%);
     }
     &:after {
-      top: 50%;
-      left: 100%;
       bottom: auto;
+      left: 100%;
+      top: 50%;
       transform: translate(-12px, -50%);
     }
     &:hover,
@@ -97,21 +97,21 @@
   &[data-tootik-conf*='bottom'] {
     &:before {
       .arrowPosition(bottom);
-      top: auto;
-      bottom: -@arrow-position * 2;
+      bottom: -@arrow-position;
       left: 50%;
+      top: auto;
       transform: translate(-50%, calc(-50% + 6px));
     }
     &:after {
-      top: 100%;
-      left: 50%;
       bottom: auto;
+      left: 50%;
+      top: 100%;
       transform: translate(-50%, -12px);
     }
     &:hover,
     &:focus {
       &:before {
-        transform: translate(-50%, calc(-50% + @arrow-position));
+        transform: translate(-50%, calc(-50% + 2px));
       }
       &:after {
         transform: translate(-50%, 6px);
@@ -121,17 +121,17 @@
   &[data-tootik-conf*='left'] {
     &:before {
       .arrowPosition(left);
-      left: -@arrow-position * 1.2;
-      top: 50%;
-      width: 0;
       height: 0;
+      left: -2px;
+      top: 50%;
       transform: translate(calc(-50% - 8px), -50%);
+      width: 0;
     }
     &:after {
-      top: 50%;
-      right: 100%;
       bottom: auto;
       left: auto;
+      right: 100%;
+      top: 50%;
       transform: translate(12px, -50%);
     }
     &:hover,
@@ -150,10 +150,10 @@
   // Multiline
   &[data-tootik-conf*='multiline'] {
     &:after {
-      word-break: break-word;
-      white-space: normal;
       min-width: 180px;
       text-overflow: clip;
+      white-space: normal;
+      word-break: break-word;
     }
   }
 
