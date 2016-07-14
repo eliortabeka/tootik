@@ -14,7 +14,5 @@
     "tooltips",
     "tooltip"
   ],
-  "license": "MIT",
-  "ignore": [
-  ]
+  "license": "MIT"
 }
