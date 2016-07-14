@@ -1,16 +1,16 @@
 {
   "name": "tootik",
-  "version": "1.0.1",
-  "description": "A pure CSS/SCSS Tooltip library",
-  "main": "css/tootik.min.css",
+  "version": "1.0.2",
+  "description": "A pure CSS/SCSS/LESS Tooltip library",
+  "main": "css/tootik.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eliorshalev/tootik.git"
   },
   "keywords": [
     "css",
-    "sass",
     "scss",
+    "less",
     "tooltip",
     "tooltips"
   ],
@@ -21,9 +21,5 @@
   },
   "homepage": "https://github.com/eliorshalev/tootik#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-cssmin": "^0.1.7",
-    "gulp-less": "^3.1.0",
-    "gulp-rename": "^1.2.2"
   }
 }
