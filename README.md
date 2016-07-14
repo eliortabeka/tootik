@@ -70,4 +70,5 @@ Additionally, you can define a **data-tootik-conf** attribute to either change p
 ### Credit
 
 Handcrafted with love by [Elior Shalev Tabeka](http://codepen.io/eliorshalev)
+
 LESS syntax by [Elena Torro](https://github.com/elenatorro)
