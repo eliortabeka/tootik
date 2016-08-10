@@ -9,6 +9,11 @@ https://eliorshalev.github.io/tootik/
 
 ### Installation
 
+**CDN:**
+```
+https://npmcdn.com/tootik@1.0.2/css/tootik.min.css
+```
+
 **Using npm:**
 ```
 npm install tootik
@@ -35,8 +40,8 @@ Additionally, you can define a **data-tootik-conf** attribute to either change p
 
 ```html
 <span data-tootik="..." data-tootik-conf="...">...</span>
-```          
-          
+```
+
 ### Positioning
 
 ```html
