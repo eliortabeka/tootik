@@ -2,7 +2,7 @@
 
 A pure **CSS/SCSS/LESS Tooltip** library. Super easy to use, No JavaScript required.
 
-![frame](/logo.png)
+![frame](/tootik.jpg)
 
 ### Demo
 https://eliorshalev.github.io/tootik/
