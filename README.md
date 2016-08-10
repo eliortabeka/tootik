@@ -1,6 +1,6 @@
 ## Tootik
 
-A pure **CSS/SCSS Tooltip** library. Super easy to use, No JavaScript required.
+A pure **CSS/SCSS/LESS Tooltip** library. Super easy to use, No JavaScript required.
 
 ![frame](/logo.png)
 
@@ -35,8 +35,8 @@ Additionally, you can define a **data-tootik-conf** attribute to either change p
 
 ```html
 <span data-tootik="..." data-tootik-conf="...">...</span>
-```          
-          
+```
+
 ### Positioning
 
 ```html
@@ -69,4 +69,6 @@ Additionally, you can define a **data-tootik-conf** attribute to either change p
 
 ### Credit
 
-Handcrafted with love by Elior Shalev Tabeka (http://codepen.io/eliorshalev)
+Handcrafted with love by [Elior Shalev Tabeka](http://codepen.io/eliorshalev)
+
+LESS syntax by [Elena Torro](https://github.com/elenatorro)
