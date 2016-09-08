@@ -11,7 +11,7 @@ https://eliorshalev.github.io/tootik/
 
 **CDN:**
 ```
-https://npmcdn.com/tootik@1.0.2/css/tootik.min.css
+https://unpkg.com/tootik@1.0.2/css/tootik.min.css
 ```
 
 **Using npm:**
