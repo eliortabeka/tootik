@@ -2,7 +2,7 @@
 
 A pure **CSS/SCSS/LESS Tooltip** library. Super easy to use, No JavaScript required.
 
-![tootik playground](/tootik.jpg)
+![tootik playground](/logo.png)
 
 ### Demo
 https://eliorshalev.github.io/tootik/
@@ -11,7 +11,7 @@ https://eliorshalev.github.io/tootik/
 
 **CDN:**
 ```
-https://npmcdn.com/tootik@1.0.2/css/tootik.min.css
+https://unpkg.com/tootik@1.0.2/css/tootik.min.css
 ```
 
 **Using npm:**
@@ -41,6 +41,10 @@ Additionally, you can define a **data-tootik-conf** attribute to either change p
 ```html
 <span data-tootik="..." data-tootik-conf="...">...</span>
 ```
+
+### Playground
+
+![tootik playground](/tootik.jpg)
 
 ### Positioning
 
