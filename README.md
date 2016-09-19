@@ -2,7 +2,7 @@
 
 A pure **CSS/SCSS/LESS Tooltip** library. Super easy to use, No JavaScript required.
 
-![tootik playground](/tootik.jpg)
+![tootik playground](/logo.png)
 
 ### Demo
 https://eliorshalev.github.io/tootik/
@@ -41,6 +41,10 @@ Additionally, you can define a **data-tootik-conf** attribute to either change p
 ```html
 <span data-tootik="..." data-tootik-conf="...">...</span>
 ```
+
+### Playground
+
+![tootik playground](/tootik.jpg)
 
 ### Positioning
 
