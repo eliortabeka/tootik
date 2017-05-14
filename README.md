@@ -3,7 +3,7 @@
 A pure **CSS/SCSS/LESS Tooltip** library. Super easy to use, No JavaScript required.
 
 ### Tooltip Generator:
-https://eliorshalev.github.io/tootik/
+https://eliortabeka.github.io/tootik/
 
 ![tootik playground](/tootik.gif)
 
