@@ -8,7 +8,7 @@ https://eliortabeka.github.io/tootik/
 ![tootik playground](/tootik.gif)
 
 ### Demo
-https://eliorshalev.github.io/tootik/
+https://eliortabeka.github.io/tootik/
 
 ### Installation
 
@@ -28,7 +28,7 @@ bower install tootik
 ```
 
 **Manually:**
-Download `tootik.min.css` from this repo or from [demo site](https://eliorshalev.github.io/tootik/) and add it to your HTML. e.g.
+Download `tootik.min.css` from this repo or from [demo site](https://eliortabeka.github.io/tootik/) and add it to your HTML. e.g.
 ```html
 <link rel="stylesheet" href="path/to/tootik.min.css">
 ```
@@ -77,6 +77,6 @@ Additionally, you can define a **data-tootik-conf** attribute to either change p
 
 ### Credit
 
-Handcrafted with love by [Elior Shalev Tabeka](http://codepen.io/eliorshalev)
+Handcrafted with love by [Elior Shalev Tabeka](http://codepen.io/eliortabeka)
 
 LESS syntax by [Elena Torro](https://github.com/elenatorro)
